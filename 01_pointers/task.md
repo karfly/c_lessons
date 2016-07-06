@@ -1,13 +1,13 @@
 # 01_pointers: task
 #### 1) Declare 2 int pointers.
-Hint: to declare 2 int's you can use:
+Hint: to declare 2 ints you can use:
 ```c
 int num1 = 1, num2 = 2;
 ```
 #### 2) What this code will print (do not compile, use your head)?
 ```c
 int num1 = 42;
-int ptr = &num1;
+int * ptr = &num1;
 
 printf("%d\n", *ptr);
 ```
@@ -15,7 +15,7 @@ printf("%d\n", *ptr);
 #### 3) What this code will print (compile it, and prepare a screenshot)?
 ```c
 int num1 = 42;
-int ptr = &num1;
+int * ptr = &num1;
 
 printf("%p\n", ptr);
 ```
